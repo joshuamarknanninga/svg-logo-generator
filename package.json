@@ -1,0 +1,22 @@
+{
+  "name": "svg-logo-generator",
+  "version": "1.0.0",
+  "description": "This takes in user input and generates a logo and saves it into an SVG file.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "mock-fs": "^5.2.0"
+  },
+  "dependencies": {
+    "inquirer": "^8.2.6"
+  },
+  "directories": {
+    "example": "examples"
+  }
+}
