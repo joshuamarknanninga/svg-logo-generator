@@ -2,6 +2,7 @@
 const inquirer = require('inquirer');
 const fs = require('fs');
 const mockFs = require('mock-fs');
+const path = require('path');
 const { Triangle, Circle, Square } = require('./lib/shapes');
 
 // Mock the inquirer prompt
@@ -29,8 +30,11 @@ describe('SVG Logo Generator', () => {
       shapeColor: 'green',
     });
 
+    // Debugging: Log current directory and path to index.js
+    console.log('Current directory:', __dirname);
+    console.log('Path to index.js:', path.resolve(__dirname, './index.js'));
     // Import the index.js file to run the script
-    await require('./index'); // Ensure this line is correct
+    await require (path.resolve(__dirname, './index.js')); // Ensure this line is correct
 
     // Read the generated SVG file
     const svgContent = fs.readFileSync('logo.svg', 'utf8');

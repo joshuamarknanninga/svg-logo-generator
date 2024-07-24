@@ -14,7 +14,7 @@ This is a Node.js command-line application that generates an SVG logo based on u
 
 ## Walkthrough Video
 
-[Link to walkthrough video](#)
+https://www.loom.com/share/c1cbca986db242eab700f6dce282d399?sid=c25a4d87-a351-43e1-92da-e0621bed978c
 
 ## Examples
 
